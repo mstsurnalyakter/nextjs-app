@@ -33,13 +33,25 @@ const NavBar = () => {
             path:"/product"
         },
         {
+            title:"Categories",
+            path:"/categories"
+        },
+        {
             title:"Blogs",
             path:"/blogs"
+        },
+        {
+            title:"Dashboard",
+            path:"/dashboard"
         },
     ]
 
     const handleClick = () =>{
         router.push('/about')
+    }
+
+    if (pathName.includes('dashboard')){
+        return <div className="bg-green-400 p-6 text-center">Dashboard Navbar</div>;
     }
 
   return (
