@@ -32,6 +32,10 @@ const NavBar = () => {
             title:"Products",
             path:"/product"
         },
+        {
+            title:"Blogs",
+            path:"/blogs"
+        },
     ]
 
     const handleClick = () =>{

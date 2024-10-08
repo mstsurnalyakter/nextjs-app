@@ -4,9 +4,13 @@ import React from 'react'
 const AboutPage = () => {
   return (
     <div>
-      <h2 className="text flex items-center text-3xl text-fuchsia-500">
-        AboutPage
-      </h2>
+      <section className='flex items-center justify-center gap-5'>
+        <Link href={"/about/history"}>History</Link>
+        <Link href={"/about/history/vision"}>Our Vision</Link>
+        <Link href={"/about/mission"}>Mission</Link>
+
+      </section>
+
       <Link href="/about#myName">See my Name</Link>
 
       <p>
